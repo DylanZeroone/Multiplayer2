@@ -1,0 +1,18 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+/Users/dylanosterby/Documents/DylanMultiplayer 2/MultiPlayer
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+59105
+Successfully changed project path to: /Users/dylanosterby/Documents/DylanMultiplayer 2/MultiPlayer
+/Users/dylanosterby/Documents/DylanMultiplayer 2/MultiPlayer
+Using Asset Import Pipeline V2.
