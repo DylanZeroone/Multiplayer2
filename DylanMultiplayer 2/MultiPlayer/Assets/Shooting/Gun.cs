@@ -48,8 +48,6 @@ public class Gun : MonoBehaviour
         else
           {
             GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.transform.position, bulletSpawnPoint.transform.rotation);
-            Debug.Log("bullet spawn point = " + bulletSpawnPoint.transform.position.ToString());
-            Debug.Log("bullet spawn point rotation = " + bulletSpawnPoint.transform.rotation.ToString());
             shots = ammo -= 1;
             //bulletPrefab.AddForce(spawnPoint.forward * 1000f);
           }

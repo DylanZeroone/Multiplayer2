@@ -5,10 +5,17 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
   public int health;
+  public int damage;
 
   public void TakeDamage(int damage)
   {
-    health -= damage;
-    Debug.Log("Health = " + health.ToString());
+    Debug.Log("Health Works");
   }
+  private void OnCollisionEnter(Collision collision)
+    {
+    if(collision.gameObject.tag == "Bullet")
+      {
+        health -= damage;
+      }
+    }
 }
