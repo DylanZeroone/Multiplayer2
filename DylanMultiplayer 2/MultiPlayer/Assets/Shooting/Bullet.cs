@@ -8,6 +8,8 @@ public class Bullet : MonoBehaviour
   public float bulletSpeed = 100.0f;
   GameObject LevelManager;
 
+
+
   void Start()
   {
       LevelManager = GameObject.FindGameObjectWithTag("LevelManager");
@@ -19,6 +21,15 @@ public class Bullet : MonoBehaviour
     if(collision.gameObject.tag == "Enemy")
     {
         Destroy(collision.gameObject);
+        Destroy(gameObject);
+    }
+    if(collision.gameObject)
+    {
+      Destroy(gameObject);
+    }
+    if(collision.gameObject.tag == "Player")
+    {
+      
     }
   }
 }

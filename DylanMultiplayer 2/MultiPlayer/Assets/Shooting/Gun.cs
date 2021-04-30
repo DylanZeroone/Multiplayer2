@@ -54,5 +54,13 @@ public class Gun : MonoBehaviour
             //bulletPrefab.AddForce(spawnPoint.forward * 1000f);
           }
     }
+    if(Input.GetMouseButtonDown(1))
+    {
+      if(ammo == 0)
+      {
+        ammo = 10;
+      }
+    }
   }
+
 }
