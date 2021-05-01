@@ -25,7 +25,7 @@ public class Gun : MonoBehaviour
         bulletSpawnPoint = transform.GetChild(0).GetChild(0).gameObject;
         Debug.Log("Gun Class Start Method Logging");
         Debug.Log(bulletSpawnPoint.GetInstanceID());
-        Debug.Log(transform.childCount);
+      //  Debug.Log(transform.childCount);
         Debug.Log(bulletSpawnPoint.transform.position.ToString());
         Debug.Log(bulletSpawnPoint.transform.localPosition.ToString());
         Debug.Log(bulletPrefab.transform.position.ToString());
