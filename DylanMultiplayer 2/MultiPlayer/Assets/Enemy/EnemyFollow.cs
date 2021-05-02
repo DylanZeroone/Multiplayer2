@@ -16,5 +16,6 @@ public class EnemyFollow : MonoBehaviour
     void Update()
     {
         enemy.SetDestination(Player.position);
+        transform.LookAt(2 * transform.position - Player.position);
     }
 }
